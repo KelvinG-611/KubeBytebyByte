@@ -21,4 +21,5 @@ Q2: What is Minikube? Why do we use minikube?
 
 ## Others
 What Github Gist? 
+
 Notepad for your code and text that can easily share with others.
