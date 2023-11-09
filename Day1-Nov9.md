@@ -20,6 +20,21 @@ Q2: What is Minikube? Why do we use minikube?
 
 
 ## Others
-What Github Gist? 
+1. What Github Gist?
 
-Notepad for your code and text that can easily share with others.
+  Notepad for your code and text that can easily share with others.
+
+2. What is `__setitem()` method?
+`__setitem()` is a special method in python that allows you to set the value of the item in an object using **square bracket notation**.
+```python
+class Test:
+  def __init__(self):
+    self.dic = {}
+
+  def __setitem__(self, key, value):
+    self.dic[key] = value
+
+if __name__ == "__main__":
+  test_instance = Test()
+  test_instance["key1"] = "value1" # This will call __setitem__ method
+```
