@@ -17,3 +17,8 @@ So if you're using virtualization:
 - You can run different programs or tasks in these separate systems without them affecting each other. For example, developers use virtualization to test software on different operating systems without needing several separate physical computers. Or, you can use it to run a program that only works on Windows while you're using a Mac, by running a virtual Windows computer on your Mac.
 
 Q2: What is Minikube? Why do we use minikube?
+
+
+## Others
+What Github Gist? 
+Notepad for your code and text that can easily share with others.
