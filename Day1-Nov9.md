@@ -22,9 +22,12 @@ Q2: What is Minikube? Why do we use minikube?
 # Topic 2. Pod 
 1. What is Pod?
 
-Imagine Pod as a shared department where each room is a container. ![image](https://github.com/KelvinG-LGTM/KubeBytebyByte/assets/13389755/d73d8a3a-bc05-4850-a3d9-40c03426b909)
+   Imagine Pod as a shared department where each room is a container.
 
-2. Analog to describe the relationship between pod and containers
+   <img src="https://files.oaiusercontent.com/file-Bs5cfTcqVG4pxFqM9PWHeV1F?se=2023-11-10T03%3A16%3A59Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D0198bc5f-23c9-4f63-a49a-94a22a9ba442.webp&sig=Hux/V5dWb08rd4W5VGceK5ufN/R1fmdsFyq%2BS1MtSeU%3D" width="40%">
+
+
+3. Analog to describe the relationship between pod and containers
 
    Imagine a fast-food company founded by a team of three friends. They decided to operate their business from a food truck. Each friend has a specific role: one handles cash transactions, another is responsible for cooking, and the third prepares ingredients. They all share common facilities within the truck like the washroom, kitchen, and fridge. If they need to replace any equpiment or decide to operate from a different truck, they simply lease another one and run their business there.
 
