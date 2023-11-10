@@ -22,7 +22,7 @@ Q2: What is Minikube? Why do we use minikube?
 # Topic 2. Pod 
 1. What is Pod?
 
-   Imagine Pod as a shared department where each room is a container.
+   Imagine Pod as a shared apartment where each room is a container.
 
    <img src="https://files.oaiusercontent.com/file-Bs5cfTcqVG4pxFqM9PWHeV1F?se=2023-11-10T03%3A16%3A59Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D0198bc5f-23c9-4f63-a49a-94a22a9ba442.webp&sig=Hux/V5dWb08rd4W5VGceK5ufN/R1fmdsFyq%2BS1MtSeU%3D" width="40%">
 
