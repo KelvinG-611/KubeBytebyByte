@@ -29,13 +29,33 @@ Q2: What is Minikube? Why do we use minikube?
 
 3. Analog to describe the relationship between pod and containers
 
+   <table>
+   <tr>
+   <td>
+   
    Imagine a fast-food company founded by a team of three friends. They decided to operate their business from a food truck. Each friend has a specific role: one handles cash transactions, another is responsible for cooking, and the third prepares ingredients. They all share common facilities within the truck like the washroom, kitchen, and fridge. If they need to replace any equpiment or decide to operate from a different truck, they simply lease another one and run their business there.
-
+   
+   </td>
+   <td>
+   
    In this analogy, the fast food company is akin to a pod. The food truck is analogous to a node, providing the necessary infrastructure and environment for the company (the pod) to function. The three friends represents the containers in the pod, each performing a distinct task but sharing common resources and infrastructure. Just as the friends share the facilities of the truck, containers in a pod share common resources like the local network and mounted volumes.
    
-4. What's the design philosophy of using Pod?
-   Team work. How do we achieve goal with shared resources.
    
+   </td>
+   </tr>
+   </table>
+   
+   
+<details>
+  <summary>4. What's the design philosophy of using Pod?</summary>
+  
+  Team work. How do we achieve goal with shared resources.
+
+</details>
+
+# Topic 3. ReplicaSets
+
+
 
 ## Others
 1. What Github Gist?
