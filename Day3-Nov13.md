@@ -14,10 +14,11 @@ List all contexts: `kubectl config get-contexts`
     - NAMESPACE: The default namespace for the context (if set)
 Switch context: `kubectl config use-context [context-name]`
 
-2. 
-What's the relationship between `kubectl config view --minify` and kubeconfig file? 
-    it only shows the information related to the current context. This includes the details of the cluster, user, namespace associated with the current context, but exclude the details of other contexts, users in the kubeconfig file. 
-What's the relationship between `kubectl config current-context` and kubeconfig file? 
+2. What's the relationship between `kubectl config view --minify` and kubeconfig file? 
+    it only shows the information related to the current context. This includes the details of the cluster, user, namespace associated with the current context, but exclude the details of other contexts, users in the kubeconfig file.
+   
+3. What's the relationship between `kubectl config current-context` and kubeconfig file? 
     The current-context that kubectl config current-context shows is the one from the **merged** configuration, with priority given to the current-context in the **last** file listed in the KUBECONFIG variable, if there are conflicting settings.
-What `kubectl config view` does? 
+    
+4. What `kubectl config view` does? 
     It will show you the combined version of different kubeconfig files from `echo $KUBECONFIG`
