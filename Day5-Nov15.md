@@ -6,7 +6,7 @@ Nodes are worker machine. It can be VM or physical computer. Node is where the a
 2. Components. Three parts:
 	1. kubelet
 	2. container runtime
-	3. kube-proxy ???
+	3. kube-proxy 
 5. Master-Node communication
 	
  	(1) Nodes receive instructions from the master, such as start / stop pods.
@@ -25,7 +25,7 @@ Nodes are worker machine. It can be VM or physical computer. Node is where the a
    	Kubernetes can automatically scale the number of pods based on demand and replicate pods across nodes for redundancy and reliability. 
 
 
-QA: 
+# Topic 2. Container runtime
 1. What is `container runtime`? 
 
 	A software that allow your system run containers. It's responsible for pulling images from container registry, managing them, and running application inside containers. 
@@ -43,5 +43,23 @@ QA:
 	Docker offering more features and flexibility.
 	containerd and CRI-O are more streamlined and optimized for specific environments like Kubernetes. 
 
---- 
-Hands-on lab
+# Topic 3. kubelet
+1. What is kubelet?
+	
+	- It's the key component that running on each node.
+	- It's a daemon responsbile for ensuring containers are running in a Pod.
+2. Role of kubelet
+
+   	- It manages the lifecyle of pods and their containers based on PodSpecs, which are YAML or JSON configurations. 
+	- It monitor the resource usage of the node. Ensuring there's enough CPU, memory, and storage for the pods.
+ 	- It communicate with CP to receive instructions and send back the node's status. 
+
+3. How kubelet works
+
+	- Pod scheduling. If scheduler decides to run a pod on a node, kubelet will do it's job.
+ 	- Health check, keeps checking container's health. If containers fails, kubelet restarts it.
+  	- resource reporting. kubelet report to master the resource status of the ndoe.
+  
+4. Interaction with Container Runtime
+
+	- kubelet talk to Container runtime first to control the lifecycle of containers. using Container Runtime Interface (CRI) to talk to different Container Runtime. e.g.: containerd, docker, etc,.
