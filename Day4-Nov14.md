@@ -38,7 +38,10 @@ QA:
 
 ![image](https://github.com/KelvinG-LGTM/KubeBytebyByte/assets/13389755/64be6e6d-36f7-4ac3-b6d3-c6dcaeab84f6)
 
-
+3. What's the difference between container runtime? 
+	
+	Docker offering more features and flexibility.
+	containerd and CRI-O are more streamlined and optimized for specific environments like Kubernetes. 
 
 --- 
 Hands-on lab
