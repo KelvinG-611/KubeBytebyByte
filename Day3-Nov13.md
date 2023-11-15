@@ -12,6 +12,7 @@ List all contexts: `kubectl config get-contexts`
     - NAME: Context name
     - AUTHINFO: The user credentials used in the context
     - NAMESPACE: The default namespace for the context (if set)
+
 Switch context: `kubectl config use-context [context-name]`
 
 2. What's the relationship between `kubectl config view --minify` and kubeconfig file? 
