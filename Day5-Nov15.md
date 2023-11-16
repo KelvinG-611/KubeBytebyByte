@@ -63,3 +63,6 @@ Nodes are worker machine. It can be VM or physical computer. Node is where the a
 4. Interaction with Container Runtime
 
 	- kubelet talk to Container runtime first to control the lifecycle of containers. using Container Runtime Interface (CRI) to talk to different Container Runtime. e.g.: containerd, docker, etc,.
+5. Configuration and Customization
+
+   	- it's customizable. 
